@@ -1,12 +1,16 @@
 import React from "react";
 
 import DataRange from "./DataRange";
+import Meses from "./Meses";
 
 const Header = () => {
   return (
-    <div>
-      <DataRange />
-    </div>
+    <header className="mb">
+      <div className="mb">
+        <DataRange />
+      </div>
+      <Meses />
+    </header>
   );
 };
 
